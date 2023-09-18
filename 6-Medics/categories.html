@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Cards</title>
+</head>
+<link rel="stylesheet" href="/css/loader2.css">
+<style type="text/css">
+
+
+*{
+ margin: 0px;
+ padding: 0px;
+}
+body {
+	font-family: 'Open Sans', sans-serif;
+	line-height: 20px;
+	color: #999999;
+	font-size: 300;
+	font-size: 16px;
+}
+.main{
+
+ margin: 2%;
+}
+
+.card{
+     width: 20%;
+     display: inline-block;
+     box-shadow: 0 0 30px grey;
+     background-color: #0CB8B6;
+     color: #fff;
+     margin: 2%;
+
+    }
+    .card:hover{
+      box-shadow: 0px 0px 25px #000;
+    transition: all 0.1s ease-in;
+}
+
+.image img{
+  width: 100%;
+  height: 240px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  
+
+ 
+ }
+
+.title{
+ 
+  text-align: center;
+  padding: 10px;
+  
+ }
+
+h1{
+  font-size: 20px;
+ }
+
+.des{
+  padding: 3px;
+  text-align: center;
+ 
+  padding-top: 10px;
+        border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+button{
+  margin-top: 40px;
+  margin-bottom: 10px;
+  background-color: #1112;
+  width: 85%;
+  border: none;
+  border-radius: 10px;
+  padding:10px;
+}
+button:hover{
+  background-color: #5F9EA0;
+  color: white;
+  transition: .5s;
+  cursor: pointer;
+}
+.category{
+   width:100%;
+   height: 30px;
+   margin-left: 30px;
+   font-size: 30px;
+   color:black;
+   padding-top: 7px;
+}
+.main hr{
+   border: 2px solid orange;
+   width:4%;
+   margin-top: 10px;
+   margin-left: 34px;
+}
+
+@media(max-width:1000px){
+    .card{
+        width: 45%;
+    }
+}
+@media(max-width:750px){
+    .card{
+        width: 100%;
+    }
+}
+
+</style>
+
+<!-- Body -->
+<body onload="myFunction()">
+
+   <div id="preloader"></div>
+
+<div class="main" id="myDiv">
+
+ <!--cards -->
+ <div class="category"> DERMATOLOGIST </div>
+ <hr>
+<div class="card">
+
+<div class="image">
+   <img src="/img/doctor1.jpg">
+</div>
+<div class="title">
+ <h1>Sabyasachi Majumdar</h1>
+</div>
+<div class="des">
+ <p>MBBS,MD-GENERAL MEDICINE</p>
+<button>BOOK AN APPOINTMENT</button>
+</div>
+</div>
+<!--cards -->
+
+
+<div class="card">
+
+<div class="image">
+   <img src="/img/doctor2.jpg">
+</div>
+<div class="title">
+ <h1>Dr. Ishani Chatterjee</h1>
+</div>
+<div class="des">
+ <p>MBBS,MD-GENERAL MEDICINE</p>
+<button>BOOK AN APPOINTMENT</button>
+</div>
+</div>
+<!--cards -->
+
+
+<div class="card">
+
+<div class="image">
+   <img src="/img/doctor1.jpg">
+</div>
+<div class="title">
+ <h1>Sanchayan Malakar</h1>
+</div>
+<div class="des">
+ <p>MBBS,MD-GENERAL MEDICINE</p>
+<button>BOOK AN APPOINTMENT</button>
+</div>
+</div>
+<!--cards -->
+
+
+<div class="card">
+
+<div class="image">
+   <img src="/img/doctor2.jpg">
+</div>
+<div class="title">
+ <h1>
+Dr. Sukanya Banerjee</h1>
+</div>
+<div class="des">
+ <p>MBBS,MD-GENERAL MEDICINE</p>
+<button>BOOK AN APPOINTMENT</button>
+</div>
+</div>
+<!--cards -->
+
+<div class="category">PAEDIATRICIAN</div>
+<hr>
+
+<div class="card">
+
+<div class="image">
+   <img src="/img/doctor1.jpg">
+</div>
+<div class="title">
+ <h1>
+Dr. Abdul Ahad</h1>
+</div>
+<div class="des">
+ <p>MD-PEDIATRICS(AIIMS)</p>
+<button>BOOK AN APPOINTMENT</button>
+</div>
+</div>
+<!--cards -->
+
+<div class="card">
+
+<div class="image">
+   <img src="/img/doctor2.jpg">
+</div>
+<div class="title">
+ <h1>Dr. Amrita Roy</h1>
+</div>
+<div class="des">
+ <p>MD-PEDIATRICS(AIIMS)</p>
+<button>BOOK AN APPOINTMENT</button>
+</div>
+</div>
+<!--cards -->
+
+<div class="card">
+
+<div class="image">
+   <img src="/img/doctor1.jpg">
+</div>
+<div class="title">
+ <h1>
+Dr.Abhijit Bagde</h1>
+</div>
+<div class="des">
+ <p>MD-PEDIATRICS(AIIMS)</p>
+<button>BOOK AN APPOINTMENT</button>
+
+</div>
+</div>
+<!--cards -->
+
+
+<div class="card">
+
+<div class="image">
+   <img src="/img/doctor2.jpg">
+</div>
+<div class="title">
+ <h1>
+Dr. Athira Ravindranath</h1>
+</div>
+<div class="des">
+ <p>MBBS, MD (Pediatrics), DM</p>
+<button>BOOK AN APPOINTMENT</button>
+</div>
+</div>
+<!--cards -->
+<div class="category"> CARDIOLOGIST </div>
+ <hr>
+<div class="card">
+
+<div class="image">
+   <img src="/img/doctor1.jpg">
+</div>
+<div class="title">
+ <h1>
+Write title Here</h1>
+</div>
+<div class="des">
+ <p>MBBS,MD-GENERAL MEDICINE</p>
+<button>BOOK AN APPOINTMENT</button>
+</div>
+</div>
+<!--cards -->
+
+
+<div class="card">
+
+<div class="image">
+   <img src="/img/doctor2.jpg">
+</div>
+<div class="title">
+ <h1>
+Write title Here</h1>
+</div>
+<div class="des">
+ <p>MBBS,MD-GENERAL MEDICINE</p>
+<button>BOOK AN APPOINTMENT</button>
+</div>
+</div>
+<!--cards -->
+
+
+<div class="card">
+
+<div class="image">
+   <img src="/img/doctor1.jpg">
+</div>
+<div class="title">
+ <h1>
+Write title Here</h1>
+</div>
+<div class="des">
+ <p>MBBS,MD-GENERAL MEDICINE</p>
+<button>BOOK AN APPOINTMENT</button>
+</div>
+</div>
+<!--cards -->
+
+
+<div class="card">
+
+<div class="image">
+   <img src="/img/doctor2.jpg">
+</div>
+<div class="title">
+ <h1>
+Write title Here</h1>
+</div>
+<div class="des">
+ <p>MBBS,MD-GENERAL MEDICINE</p>
+<button>BOOK AN APPOINTMENT</button>
+</div>
+</div>
+
+<div class="category"> NEUROLOGIST </div>
+ <hr>
+<div class="card">
+
+<div class="image">
+   <img src="/img/doctor1.jpg">
+</div>
+<div class="title">
+ <h1>
+Write title Here</h1>
+</div>
+<div class="des">
+ <p>MBBS,MD-GENERAL MEDICINE</p>
+<button>BOOK AN APPOINTMENT</button>
+</div>
+</div>
+<!--cards -->
+
+
+<div class="card">
+
+<div class="image">
+   <img src="/img/doctor2.jpg">
+</div>
+<div class="title">
+ <h1>
+Write title Here</h1>
+</div>
+<div class="des">
+ <p>MBBS,MD-GENERAL MEDICINE</p>
+<button>BOOK AN APPOINTMENT</button>
+</div>
+</div>
+<!--cards -->
+
+
+<div class="card">
+
+<div class="image">
+   <img src="/img/doctor1.jpg">
+</div>
+<div class="title">
+ <h1>
+Write title Here</h1>
+</div>
+<div class="des">
+ <p>MBBS,MD-GENERAL MEDICINE</p>
+<button>BOOK AN APPOINTMENT</button>
+</div>
+</div>
+<!--cards -->
+
+
+<div class="card">
+
+<div class="image">
+   <img src="/img/doctor2.jpg">
+</div>
+<div class="title">
+ <h1>
+Write title Here</h1>
+</div>
+<div class="des">
+ <p>MBBS,MD-GENERAL MEDICINE</p>
+<button>BOOK AN APPOINTMENT</button>
+</div>
+</div>
+</div>
+<script src="/js/loader2.js"></script>
+</body>
+</html>
